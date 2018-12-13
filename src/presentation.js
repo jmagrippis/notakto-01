@@ -158,7 +158,7 @@ export default class Presentation extends React.PureComponent {
             Class Components
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="0.85em"
             source={require('./snippets/jsx1.txt')}
             margin="20px auto"
@@ -172,7 +172,7 @@ export default class Presentation extends React.PureComponent {
           <Appear>
             <div>
               <CodePane
-                lang="typescript"
+                lang="javascript"
                 textSize="0.85em"
                 source={require('./snippets/jsx2.txt')}
                 margin="20px auto"
@@ -225,7 +225,7 @@ export default class Presentation extends React.PureComponent {
           <Appear>
             <div>
               <CodePane
-                lang="typescript"
+                lang="javascript"
                 textSize="0.85em"
                 source={require('./snippets/jsx3.txt')}
                 margin="20px auto"
@@ -243,7 +243,7 @@ export default class Presentation extends React.PureComponent {
             Typescript interlude!
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="1em"
             source={require('./snippets/ts1.txt')}
             margin="20px auto"
@@ -255,7 +255,7 @@ export default class Presentation extends React.PureComponent {
             Typescript interlude!
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="0.85em"
             source={require('./snippets/ts2.txt')}
             margin="20px auto"
@@ -267,7 +267,7 @@ export default class Presentation extends React.PureComponent {
             What are functions anyway?
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="0.7em"
             source={require('./snippets/ts3.txt')}
             margin="20px auto"
@@ -279,7 +279,7 @@ export default class Presentation extends React.PureComponent {
             Fat arrow syntax
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="0.65em"
             source={require('./snippets/ts4.txt')}
             margin="20px auto"
@@ -291,7 +291,7 @@ export default class Presentation extends React.PureComponent {
             Let's use some Props!
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="1em"
             source={require('./snippets/jsx4.txt')}
             margin="20px auto"
@@ -303,7 +303,7 @@ export default class Presentation extends React.PureComponent {
             Let's pass some Props!
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="0.9em"
             source={require('./snippets/jsx5.txt')}
             margin="20px auto"
@@ -315,7 +315,7 @@ export default class Presentation extends React.PureComponent {
             Let's use some State!
           </Heading>
           <CodePane
-            lang="typescript"
+            lang="javascript"
             textSize="0.55em"
             source={require('./snippets/jsx6.txt')}
             margin="20px auto"
