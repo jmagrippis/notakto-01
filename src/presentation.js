@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {
   Appear,
   BlockQuote,
@@ -15,12 +14,8 @@ import {
   Slide,
   Text,
 } from 'spectacle'
-
-// Import theme
 import createTheme from 'spectacle/lib/themes/default'
-
-// Require CSS
-require('normalize.css')
+import 'normalize.css'
 
 const theme = createTheme(
   {
@@ -238,6 +233,10 @@ export default class Presentation extends React.PureComponent {
               />
             </div>
           </Appear>
+          <Text>
+            Class Components are classes, Functional Components are just
+            functions!
+          </Text>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
           <Heading size={6} textColor="quaternary" caps>
@@ -259,6 +258,30 @@ export default class Presentation extends React.PureComponent {
             lang="ts"
             textSize="0.85em"
             source={require('./snippets/ts2.txt')}
+            margin="20px auto"
+            overflow="overflow"
+          />
+        </Slide>
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={6} textColor="quaternary" caps>
+            What are functions anyway?
+          </Heading>
+          <CodePane
+            lang="ts"
+            textSize="0.7em"
+            source={require('./snippets/ts3.txt')}
+            margin="20px auto"
+            overflow="overflow"
+          />
+        </Slide>
+        <Slide transition={['fade']} bgColor="tertiary">
+          <Heading size={6} textColor="quaternary" caps>
+            Fat arrow syntax
+          </Heading>
+          <CodePane
+            lang="ts"
+            textSize="0.65em"
+            source={require('./snippets/ts4.txt')}
             margin="20px auto"
             overflow="overflow"
           />
@@ -293,7 +316,7 @@ export default class Presentation extends React.PureComponent {
           </Heading>
           <CodePane
             lang="jsx"
-            textSize="0.7em"
+            textSize="0.55em"
             source={require('./snippets/jsx6.txt')}
             margin="20px auto"
             overflow="overflow"
