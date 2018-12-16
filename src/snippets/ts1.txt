@@ -8,6 +8,6 @@ type Person = {
 // method that uses the type defined above
 // to ensure it can work
 const hello = (person: Person) => {
-  console.log(`Hello', person.firstName)
+  console.log('Hello', person.firstName)
   console.log(`I cannot believe you are ${person.age} years old!`)
 }

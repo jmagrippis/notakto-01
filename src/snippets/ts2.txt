@@ -5,7 +5,7 @@ type Person = {
 }
 
 const hello = (person: Person) => {
-  console.log(`Hello', person.firstName)
+  console.log('Hello', person.firstName)
   console.log(`I cannot believe you are ${person.age} years old!`)
 }
 
