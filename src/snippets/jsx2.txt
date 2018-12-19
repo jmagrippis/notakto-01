@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react'
 
 export class App extends PureComponent {
   render() {
-    return return (
+    return (
       <div>
         <h1>Notakto</h1>
         <div>
